@@ -1,0 +1,26 @@
+
+header, nav, main, footer {
+    max-width: 60rem;
+    margin: auto;
+}
+
+.allcards {
+    section {
+        flex-basis: calc(33.3333% - (($gutter*2/3)));
+    }
+}
+
+nav {
+    button {
+        display: none;
+    }
+    ul, ul.open {
+        border: none;
+        display: flex;
+        justify-content: right;
+        padding-right: 16px;
+        li {
+            border: none;
+        }
+    }
+}

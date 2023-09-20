@@ -1,0 +1,29 @@
+.allcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter; //16px
+    section {
+        flex-basis: calc(50% - ($gutter/2));
+    }
+
+}
+
+section.contact {
+    justify-self: center;
+}
+
+
+section.social {
+    justify-self: center;
+}
+
+section.contact {
+    justify-self: center;
+}
+
+
+footer div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
